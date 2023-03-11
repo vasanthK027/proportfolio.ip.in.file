@@ -1,0 +1,192 @@
+*{
+	background-image:url();
+	background-color: gray;
+}
+.profile{
+	padding-top: 10%;
+}
+.bot{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	z-index: 99;
+}
+.navigation{
+	padding-top:30px ;
+	color: #fff;
+	margin-left: 40px;
+
+}
+.title{
+	margin-left: 5%;
+	font-size: 30px;
+}
+hr{
+	padding-top: 50px;
+}
+.navigation a{
+   color: #fff;
+   margin-left: 35px;
+   font-size: 1em;
+   margin-right: 3rem;
+}
+.navigation a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.art{
+	padding-top: 60px;
+	margin-left: 15px;
+}
+
+.name{
+	margin-left: 50px;
+	letter-spacing: 10px;
+	color: black;
+}
+.about{
+	text-indent: 50px;
+	color: #fff;
+	font-size: 1.2rem;
+	font-family: 'courier new' courier monospace;
+}
+.study{
+	font-size: 40px;
+	margin-left: 50%;
+	color: green;
+	text-decoration: underline;
+}
+.vip{
+	font-weight: bold;
+}
+.profile{
+	color: black;
+}
+
+.skill{
+	font-size: 40px;
+	margin-left: 50%;
+	color: black;
+	text-decoration: underline;
+}
+.timeline-area{
+	margin: 90px auto;
+	width: 360px;
+	border-left: 2px solid#fff;
+	padding: 0 20px 0 30px;
+}
+#st{
+	padding-left: 50%;
+	text-decoration: underline;
+}
+.div{
+	
+	padding:  0.5px 25px;
+	font-size: 16px;
+	border: 1px solid;
+	line-height: 1;
+	position: relative;
+	height: 110px;
+	margin-bottom: 20px;
+	outline: 2px;
+	outline-color: whitesmoke;
+}
+h5 ,h6{
+	color: #fff;
+}
+
+.div:before{
+	content: '';
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #000;
+	border: 3px solid #ddd;
+	position: absolute;
+	top: 10px;
+	left: -40px;
+	outline: 2px;
+	outline-color: whitesmoke;
+}
+.div:after{
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color: transparent#ddd transparent transparent;
+	border-width: 8px;
+	position: absolute;
+	left: -17px;
+	top: 10px;
+}
+
+#certificates{
+	color: black;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.cert_images
+{
+	padding-left: 100px;
+}
+
+#skill{
+	text-decoration: underline;
+	text-align: center;
+	color: black;
+}
+.sk{
+	text-align: center;
+}
+.skillss{
+	color: black;
+	text-align: center;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box;}
+	.para{
+		font-size: 30px;
+	}
+
+/* Container for skill bars */
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  padding-left: 10px;
+}
+
+.html {width: 75%; background-color: #04AA6D;} /* Green */
+.css {width: 50%; background-color: #2196F3;} /* Blue */
+.sql {width: 40%; background-color: #f44336;} /* Red */
+.cp {width: 60%; background-color: black;} /* Dark Grey */
+.java{width: 40%; background-color:yellow ;}
+
+.photo{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.im{
+	padding-left: 20%;
+}
+
+.lnk{
+	padding-left: 70%;
+	text-decoration: none;
+}
+
